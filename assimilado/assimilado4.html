@@ -1,0 +1,11 @@
+<script>
+    const parede = Number (prompt("Quantos metros a parede possui ?"));
+
+    const conversão =  parede * 100
+    const cimento = parede * 0.3
+
+
+    const tijolos = Math.floor((conversão - cimento)/3.61)
+
+    document.write(`Serão necessários ${tijolos} tijolos no total no total`);
+</script>
